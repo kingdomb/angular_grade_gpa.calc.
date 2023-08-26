@@ -18,7 +18,7 @@
         <form [formGroup]="signinForm" (ngSubmit)="onSubmit(); signinForm.reset()">
           <mat-card-content>
             <mat-form-field fxFlex appearance="fill">
-              <mat-label for="txtStudentId" id="lblStudentId">Student ID</mat-label>
+              <mat-label for="txtStudentId" id="lblStudentId">Student ID/Use (1007, 1008, 1009, 1010, 1011, 1012).</mat-label>
               <input type="text" matInput formControlName="studentId" required id="txtStudentId" name="txtStudentId" />
             </mat-form-field>
           </mat-card-content>
